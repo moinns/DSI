@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+r {
+  color: red;
+}
+
+body {
+  min-width: 1850px;
+  min-height: 2158px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+
+  height: 100px;
+
+  border-bottom: 3px solid #e5e5e5;
+}
+
+header > img {
+  margin: 22px 0 22px 158px;
+}
+
+.links {
+  width: 60%;
+  margin: 40px auto 40px 130px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.links > a {
+  text-decoration: none;
+  color: #151f24cc;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100px;
+
+  display: block;
+  height: 100px;
+  width: 100%;
+
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+.links > a:hover {
+  background-color: #831f22;
+  color: #fff;
+}
+/* second block */
+.info {
+  transform: scale(1.1);
+
+  height: 500px;
+  width: 1125px;
+
+  display: flex;
+  margin: 120px auto;
+}
+
+.info > * {
+  margin: 22px;
+}
+
+.text > * :not(last-child) {
+  display: block;
+  width: 545px;
+}
+
+.text > h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 113%;
+}
+
+.text > h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #30444e;
+}
+
+.read {
+  padding: 12px 32px;
+  color: #fff;
+  text-decoration: none;
+
+  background-color: #ee4248;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+
+  transition: background-color 0.2s linear;
+}
+
+.read:hover {
+  background-color: #831f22;
+}
+/* third block */
+.welcome {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+}
+
+.welcome > :nth-child(1) {
+  margin: 2.5% 45px auto auto;
+}
+.welcome > :nth-child(2) {
+  margin: auto auto auto 45px;
+}
+
+.welcome_text {
+  height: fit-content;
+  width: 520px;
+}
+
+.welcome_text > h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+}
+.welcome_text > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+/* fourth block */
+.products {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.products > * {
+  width: 320px;
+  height: 400px;
+}
+.products > * > h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+
+  color: #ee4248;
+}
+.products > * > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #30444e;
+}
+/* contact info */
+.contact_info {
+  margin: 160px auto 10px;
+  width: 35%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+/* footer */
+footer {
+  height: 64px;
+  margin: 15px 0 0 0;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+
+  background-color: #ee4248;
+}
